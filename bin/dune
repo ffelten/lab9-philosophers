@@ -1,0 +1,6 @@
+(executables
+ (public_names philosophers)
+ (names philosophers)
+ (libraries threads)
+ (flags (:standard -I +threads))
+ )
