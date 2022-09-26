@@ -2,6 +2,7 @@ let number = 2 in
 let philosopher id = 
   let left = id in
   let right = (id + 1) mod number in
+  
   let eat () = 
     Printf.printf "Philosopher %d is eating plate using forks left:%d, right:%d.\n" id left right;
     Thread.delay 0.3;
